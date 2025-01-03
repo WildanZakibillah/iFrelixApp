@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item1Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/jobItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- Job Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Marketing"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Company Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PT. Bintang Global - Surabaya"
+            android:textSize="14sp" />
+
+        <!-- Job Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mengelola kampanye digital dan promosi melalui berbagai saluran online."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Salary -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji: Rp 3-4 jt"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Information -->
+        <!-- Kualifikasi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kualifikasi: Pengalaman di digital marketing, kemampuan analisa data."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Persyaratan (Bentuk Poin) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persyaratan:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Pendidikan minimal D3/S1 di bidang terkait"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Memiliki pengalaman 1-2 tahun di bidang digital marketing"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Menguasai platform pemasaran digital seperti Google Ads, Facebook Ads, dan SEO"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Mampu mengelola dan menganalisis data kampanye untuk meningkatkan performa"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Kemampuan komunikasi yang baik, baik tertulis maupun lisan"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Kreatif dan memiliki ide segar dalam merancang kampanye pemasaran"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <!-- Deadline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline: 31 Januari 2025"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Description or Requirements -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjelasan: Kandidat yang berhasil akan bertanggung jawab untuk merancang strategi pemasaran digital serta mengawasi jalannya kampanye di berbagai platform."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:textColor="#FFFFFF"
+            android:background="#0000FF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</LinearLayout>

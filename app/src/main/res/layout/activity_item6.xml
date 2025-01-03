@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item6Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/jobItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- Job Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Engineer"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Company Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PT. Global Tech - Jakarta"
+            android:textSize="14sp" />
+
+        <!-- Job Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mengembangkan aplikasi dan solusi teknologi untuk mendukung kebutuhan perusahaan."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Salary -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji: Rp 6-8 jt"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Information -->
+        <!-- Kualifikasi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kualifikasi: Pengalaman dalam pengembangan perangkat lunak, keterampilan dalam bahasa pemrograman seperti Java, Python, atau C++."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Persyaratan (Bentuk Poin) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persyaratan:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Pendidikan minimal S1 di bidang Teknik Informatika, Sistem Informasi, atau bidang terkait"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Pengalaman minimal 2 tahun dalam pengembangan perangkat lunak"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Menguasai bahasa pemrograman seperti Java, Python, C++, atau bahasa lain yang relevan"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Pengalaman bekerja dengan framework dan tools pengembangan perangkat lunak"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Mampu bekerja dalam tim dan memiliki kemampuan komunikasi yang baik"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <!-- Deadline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline: 30 April 2025"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Description or Requirements -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjelasan: Kandidat yang berhasil akan bertanggung jawab untuk mengembangkan aplikasi perangkat lunak yang mendukung kebutuhan bisnis perusahaan dan memastikan kualitas serta fungsionalitas produk."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:textColor="#FFFFFF"
+            android:background="#0000FF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</LinearLayout>

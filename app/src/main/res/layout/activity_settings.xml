@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Profile Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_profile_placeholder"
+                android:background="@drawable/circle_background"
+                android:layout_marginEnd="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin@gmail.com"
+                    android:textSize="14sp"
+                    android:textColor="#888" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Account Settings Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/btn_change_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Change Password"
+                android:textSize="16sp"
+                android:paddingVertical="12dp"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="8dp"
+                android:background="?attr/selectableItemBackground" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginVertical="8dp" />
+
+            <TextView
+                android:id="@+id/btn_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textSize="16sp"
+                android:paddingVertical="12dp"
+                android:drawableStart="@drawable/ic_edit"
+                android:drawablePadding="8dp"
+                android:background="?attr/selectableItemBackground" />
+        </LinearLayout>
+
+        <!-- App Settings Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/btn_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notifications"
+                android:textSize="16sp"
+                android:paddingVertical="12dp"
+                android:drawableStart="@drawable/ic_notifications"
+                android:drawablePadding="8dp"
+                android:background="?attr/selectableItemBackground" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginVertical="8dp" />
+
+            <TextView
+                android:id="@+id/btn_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Settings"
+                android:textSize="16sp"
+                android:paddingVertical="12dp"
+                android:drawableStart="@drawable/ic_privacy"
+                android:drawablePadding="8dp"
+                android:background="?attr/selectableItemBackground" />
+        </LinearLayout>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

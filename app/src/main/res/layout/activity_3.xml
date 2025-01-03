@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <!-- TextView for Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Terms and Conditions"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/introductionText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- TextView for Introduction about the App -->
+    <TextView
+        android:id="@+id/introductionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="This application is designed to assist in work-related tasks, and is developed as part of Group 14's final project. Please read the terms and conditions below before continuing."
+        android:textSize="16sp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#333333"
+        app:layout_constraintBottom_toTopOf="@+id/termsText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText"
+        android:background="@drawable/checkbox_border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- TextView for Terms -->
+    <TextView
+        android:id="@+id/termsText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1. You agree to comply with our privacy policy and terms of service.\n\n2. You are responsible for the information you enter in the app.\n\n3. We reserve the right to modify these terms at any time.\n\n4. Using this app is considered your consent to these terms."
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:lineSpacingExtra="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introductionText"
+        android:background="@drawable/checkbox_border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        tools:ignore="UnknownId" />
+
+    <!-- Checkbox for Agreement -->
+    <CheckBox
+        android:id="@+id/agreeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to the terms above"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/checkbox_border"
+        app:layout_constraintBottom_toTopOf="@+id/submitButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termsText"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Button to proceed to Login if agreed -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textSize="16sp"
+        android:backgroundTint="#0000FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreeCheckBox"
+        android:layout_marginBottom="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

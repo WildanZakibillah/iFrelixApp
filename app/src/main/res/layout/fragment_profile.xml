@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f8f4ff"
+    android:gravity="center_vertical"
+    tools:context=".ProfileFragment">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_profile_placeholder"
+        android:background="@drawable/circle_background"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="24dp" />
+
+    <!-- CardView for Profile Information -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Full Name -->
+            <TextView
+                android:id="@+id/fullNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/emailTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Phone Number -->
+            <TextView
+                android:id="@+id/phoneNumberTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+
+            <!-- School -->
+            <TextView
+                android:id="@+id/schoolTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last School Graduated"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Address -->
+            <TextView
+                android:id="@+id/addressTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Skills -->
+            <TextView
+                android:id="@+id/skillsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skills / Work Experience"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+
+            <!-- About -->
+            <TextView
+                android:id="@+id/aboutTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tell us about yourself"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Button Edit Profile -->
+    <Button
+        android:id="@+id/editProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_gravity="center"
+        android:backgroundTint="#1E88E5"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>

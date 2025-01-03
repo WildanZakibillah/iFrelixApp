@@ -1,0 +1,251 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:showDividers="middle">
+
+        <!-- Job Item 1 -->
+        <LinearLayout
+            android:id="@+id/jobItem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital Marketing"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PT. Bintang Global - Surabaya"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mengelola kampanye digital dan promosi melalui berbagai saluran online."
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaji: Rp 3-4 jt"
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Job Item 2 -->
+        <LinearLayout
+            android:id="@+id/jobItem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desainer Grafis"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PT. Cipta Guna Lestari - Malang"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Membuat desain visual menarik untuk kebutuhan media digital dan cetak."
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaji: Rp 4-5 jt"
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Job Item 3 -->
+        <LinearLayout
+            android:id="@+id/jobItem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video Editor"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PT. Cipta Purnama Jaya - Jakarta"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mengedit video klien dari tahap awal hingga hasil akhir yang profesional."
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaji: Rp 3-5 jt"
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Job Item 4 -->
+        <LinearLayout
+            android:id="@+id/jobItem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Content Writer"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PT. Kreatif Media - Bandung"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Membuat konten tulisan kreatif untuk berbagai platform digital."
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaji: Rp 3-4 jt"
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Job Item 5 -->
+        <LinearLayout
+            android:id="@+id/jobItem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UX Designer"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PT. Inovasi Digital - Yogyakarta"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Merancang pengalaman pengguna yang optimal untuk aplikasi digital."
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaji: Rp 5-7 jt"
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Job Item 6 -->
+        <LinearLayout
+            android:id="@+id/jobItem6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Engineer"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PT. Global Tech - Jakarta"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mengembangkan aplikasi dan solusi teknologi untuk mendukung kebutuhan perusahaan."
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaji: Rp 6-8 jt"
+                android:textSize="14sp"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Tambahan untuk Job Item 7 hingga 10 -->
+        <!-- Lanjutkan pola yang sama -->
+    </LinearLayout>
+</ScrollView>

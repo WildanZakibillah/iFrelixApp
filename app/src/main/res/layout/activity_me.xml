@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f8f4ff">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_profile_placeholder"
+        android:background="@drawable/circle_background"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Full Name -->
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="text" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <!-- Phone Number -->
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <!-- Last School -->
+    <EditText
+        android:id="@+id/school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last School Graduated"
+        android:inputType="text" />
+
+    <!-- Address -->
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="text" />
+
+    <!-- Skills -->
+    <EditText
+        android:id="@+id/skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skills / Work Experience"
+        android:inputType="textMultiLine" />
+
+    <!-- About -->
+    <EditText
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tell us about yourself"
+        android:inputType="textMultiLine" />
+
+    <!-- Save Profile Button -->
+    <Button
+        android:id="@+id/saveProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Profile"
+        android:layout_gravity="center"
+        android:backgroundTint="#0000FF"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

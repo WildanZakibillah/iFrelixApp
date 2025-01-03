@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/jobs"
+        android:icon="@drawable/ic_jobs"
+        android:title="Jobs" />
+    <item
+        android:id="@+id/interviews"
+        android:icon="@drawable/ic_chats"
+        android:title="Interviews" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_me"
+        android:title="Profile" />
+</menu>

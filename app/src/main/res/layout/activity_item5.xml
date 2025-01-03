@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item5Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/jobItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="16dp"> <!-- Added margin-top to push the content down -->
+
+        <!-- Job Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UX Designer"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Company Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PT. Inovasi Digital - Yogyakarta"
+            android:textSize="14sp" />
+
+        <!-- Job Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merancang pengalaman pengguna yang optimal untuk aplikasi digital."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Salary -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji: Rp 5-7 jt"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Information -->
+        <!-- Kualifikasi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kualifikasi: Pengalaman dalam desain UX/UI, keterampilan dalam menggunakan alat desain seperti Figma, Adobe XD."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Persyaratan (Bentuk Poin) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persyaratan:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Pendidikan minimal D3/S1 di bidang Desain, Informatika, atau bidang terkait"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Memiliki pengalaman dalam merancang antarmuka pengguna untuk aplikasi digital"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Menguasai alat desain seperti Figma, Sketch, atau Adobe XD"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Mampu melakukan riset pengguna dan mengumpulkan umpan balik untuk meningkatkan desain"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Memiliki kemampuan komunikasi yang baik untuk berkolaborasi dengan tim pengembang"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <!-- Deadline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline: 30 Maret 2025"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Description or Requirements -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjelasan: Kandidat yang berhasil akan bertanggung jawab untuk merancang antarmuka pengguna aplikasi digital, termasuk pembuatan wireframe, prototipe, dan desain visual."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:textColor="#FFFFFF"
+            android:background="#0000FF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</LinearLayout>

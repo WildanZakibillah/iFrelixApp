@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item2Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/jobItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="16dp"> <!-- Added margin-top to push the content down -->
+
+        <!-- Job Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desainer Grafis"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Company Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PT. Cipta Guna Lestari - Malang"
+            android:textSize="14sp" />
+
+        <!-- Job Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Membuat desain visual menarik untuk kebutuhan media digital dan cetak."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Salary -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji: Rp 4-5 jt"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Information -->
+        <!-- Kualifikasi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kualifikasi: Pengalaman di desain grafis, menguasai software desain seperti Adobe Illustrator, Photoshop."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Persyaratan (Bentuk Poin) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persyaratan:"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Pendidikan minimal D3/S1 di bidang Desain Grafis atau seni rupa"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Memiliki pengalaman 1-2 tahun di bidang desain grafis"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Menguasai software desain grafis seperti Adobe Photoshop, Illustrator, CorelDraw"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Kreatif dan memiliki kemampuan dalam menginterpretasikan brief desain"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+
+        <!-- Deadline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline: 15 Februari 2025"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Additional Description or Requirements -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penjelasan: Kandidat yang berhasil akan bertanggung jawab untuk membuat desain visual yang menarik baik untuk media digital maupun cetak."
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:textColor="#FFFFFF"
+            android:background="#0000FF"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".InfoActivity">
+
+    <!-- App Icon -->
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/bgr"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang iFrelix"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/app_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Description Section -->
+    <TextView
+        android:id="@+id/info_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="iFrelix adalah aplikasi untuk membantu Anda menemukan pekerjaan yang tepat. Anda dapat mencari pekerjaan berdasarkan kategori, lokasi, dan jenis pekerjaan yang sesuai dengan keterampilan Anda."
+        android:textSize="16sp"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="#555555"
+        app:layout_constraintTop_toBottomOf="@id/title_info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/info_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Tips Title -->
+    <TextView
+        android:id="@+id/info_tips_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips Menggunakan iFrelix"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/info_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Tips Content -->
+    <TextView
+        android:id="@+id/info_tips"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1. Sesuaikan profil Anda dengan keterampilan yang relevan.\n2. Pastikan data diri Anda sesuai dan tidak menggunakan data palsu.\n3. Perbarui kemampuan dan skill Anda secara rutin.\n4. Jangan ragu untuk melamar pekerjaan yang menarik!"
+        android:textSize="16sp"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="#555555"
+        app:layout_constraintTop_toBottomOf="@id/info_tips_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/info_tips"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
